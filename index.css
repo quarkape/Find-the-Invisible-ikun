@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: rgba(0,0,0,.06);
+}
+
+#noti {
+  /* display: none; */
+  position: fixed;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 600px;
+  box-shadow: rgb(0 0 0 / 20%) 4px 4px 20px;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 24px;
+  box-sizing: border-box;
+}
+.noti-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.noti-way {
+  margin: 24px 0;
+  color: rgb(70, 130, 180);
+}
+.noti-way1 {
+  text-decoration: underline;
+  margin: 24px 0;
+}
+.noti-btn {
+  margin: 24px 0;
+}
+.noti-btn0, .noti-btn1 {
+  padding: 14px 24px;
+  background-color: rgb(70, 130, 180);
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#ikun {
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  background-image: url("./mp3/sticker.png");
+  background-size: 100% 100%;
+}
+
+.ikun-cursor {
+  cursor: pointer;
+}
+
+.addanim {
+  animation-name: anim;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes anim {
+  from {
+     width: 80px;
+     height: 80px;
+     opacity: 0;
+  }
+  to {
+    width: 400px;
+    height: 400px;
+    opacity: 1!important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.bg {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#sednoti {
+  display: none;
+  position: fixed;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 600px;
+  box-shadow: rgb(0 0 0 / 20%) 4px 4px 20px;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+#footer {
+  position: fixed;
+  right: 8px;
+  bottom: 8px;
+  color: #666;
+  display: inline;
+  font-size: 14px;
+}
+
+.noti-footer {
+  margin-top: 24px;
+}
+
+.iconn {
+  margin-right: 24px;
+  display: inline-block;
+}
+
+#myblog {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.hide-pre {
+  visibility: hidden;
+}
+.hide-pre img {
+  width: 0;
+  height: 0;
+}
