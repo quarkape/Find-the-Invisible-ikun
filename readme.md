@@ -1,6 +1,6 @@
 # Find the Invisible ikun V1.0.0
 
-![image](https://github.com/quarkape/Find_the_Invisible_ikun/blob/main/mp3/sticker.png, style="width:100px")
+<img src="https://github.com/quarkape/Find_the_Invisible_ikun/blob/main/mp3/sticker.png" style="width:100px">
 
 ---
 
