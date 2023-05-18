@@ -114,5 +114,5 @@ function handleClick(e) {
 }
 
 document.getElementById('myblog').addEventListener('click', () => {
-  window.open("https://whom.fun");
+  window.open("https://github.com/quarkape");
 })
